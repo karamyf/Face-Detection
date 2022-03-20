@@ -1,7 +1,7 @@
 from face_functions import *
 import cv2
 import os
-
+#from admin import cam_num
 
 
 # Encode faces from a folder
@@ -54,8 +54,13 @@ numFrame = 0
 if not os.path.exists('dataset'):
     os.makedirs('dataset')
 # Load Camera
-
-cap=cv2.VideoCapture(0)
+# Default Port 0
+cam_num = 0
+answer = input("Do you Want to Change Default Camera y/n : ")
+if ( answer == "y" or answer == "yes" or answer == "Y" or answer == "YES" ):
+    cam_num = int(input("Enter Camera Port: "))
+    
+cap=cv2.VideoCapture(cam_num,cv2.CAP_DSHOW)
 cap.set(cv2.CAP_PROP_FPS, 30)
 
 
@@ -88,9 +93,11 @@ while True:
         
         #display gender and age on the screen
         #cv2.putText(frame, label,(x1-20, y2+30), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 255, 255), 2)
-        if name == "Unknown":
-            name = input("Please enter your name?")
-            cv2.imwrite('images/' + str(name) + '.jpg', frame)
+        
+        counter_frame = 0
+        if cv2.waitKey(1) & 0xFF == ord('k'):
+            cv2.imwrite('dataset/' + str(counter_frame) + '.jpg', frame)
+            counter_frame += 1
             
             
         MarkAttendance(name,gender,age)
