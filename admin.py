@@ -29,6 +29,14 @@ if( choice == 3 ) :
 
 
 """
+cam_num = 0
+#Change Default Camera
+#answer = input("Do you Want to Change Default Camera y/n : ")
+#if ( answer == "y" or answer == "yes" or answer == "Y" or answer == "YES" ):
+#    cam_num = int(input("Enter Camera Port: "))
+
+
+
 # create the main window
 mainwindow = tk.Tk()
 mainwindow.title('Tkinter Open File Dialog')
@@ -68,10 +76,6 @@ open_button = ttk.Button(
 )
 
 
-
-
-
-
 # creating a label for
 # name using widget Label
 name_label = tk.Label(mainwindow, text='Name', font=('calibre', 10, 'bold'))
@@ -80,21 +84,6 @@ name_entry = tk.Entry(mainwindow, textvariable=name_var, font=('calibre', 10, 'n
 
 
 sub_btn = tk.Button(mainwindow, text='Submit', command=rename_file)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 open_button.grid(row=0, column=1)
 name_label.grid(row=1, column=0)
