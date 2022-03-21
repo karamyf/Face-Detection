@@ -20,7 +20,7 @@ Alternatively, you can use the `face_detect.yml`
 Add Your Images to `/images` Folder \
 Rename Each Image with the Name of its Owner \
 Run `face_detect.py` ( main Program ) \
-<img src="/images/forreadme/1.png" width="128"/> \
+<img src="/images/forreadme/1.PNG" width="128"/> \
 0 by Default \
 
 
