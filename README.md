@@ -21,7 +21,7 @@ Add Your Images to `/images` Folder \
 Rename Each Image with the Name of its Owner \
 Run `face_detect.py` ( main Program ) \
 <img src="/images/forreadme/1.PNG"/> \
-0 by Default \
+0 by Default
 
 
 
