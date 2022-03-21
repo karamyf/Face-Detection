@@ -20,7 +20,7 @@ Alternatively, you can use the `face_detect.yml`
 Add Your Images to `/images` Folder \
 Rename Each Image with the Name of its Owner \
 Run `face_detect.py` ( main Program ) \
-![Alt text](\images\forreadme\1.png) \
+![A test image](/images/forreadme/1.png) \
 0 by Default \
 
 
