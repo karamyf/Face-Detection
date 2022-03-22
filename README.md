@@ -25,8 +25,9 @@ Run `face_detect.py` ( main Program ) \
 
 Run `admin.py` To Name the Unknown Detected Faces \
 <img src="/images/forreadme/2.PNG"/> \
-<img src="/images/forreadme/3.PNG"/> \
-<img src="/images/forreadme/4.PNG"/>
+<img src="/images/forreadme/unknown faces.PNG"/> \
+<img src="/images/forreadme/4.PNG"/> \
+<img src="/images/forreadme/3.PNG"/>
 
 
 
