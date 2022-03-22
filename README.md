@@ -1,6 +1,6 @@
 
 # Face Recognition with OpenCV and Python
-A brief description of what this project does and who it's for
+A brief description of what this project does
 
 
 
@@ -17,7 +17,7 @@ Alternatively, you can use the `face_detect.yml`
 
 # How to Use
 
-Add Your Images to `/images` Folder \
+Add Your Images to `/images` \
 Rename Each Image with the Name of its Owner \
 Run `face_detect.py` ( main Program ) \
 <img src="/images/forreadme/1.PNG"/> \
