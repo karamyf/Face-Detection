@@ -23,6 +23,7 @@ Run `face_detect.py` ( main Program ) \
 <img src="/images/forreadme/1.PNG"/> \
 0 by Default
 
+Run `admin.py` To Name the Unknown Detected Faces
 
 
 
